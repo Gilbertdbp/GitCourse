@@ -1,5 +1,18 @@
 body {
-    color: rebeccapurple;
+    background-color: gray;
+    color: purple;
     text-align: center;
-    font-family: Helvetica;
+    font-family: 'cen New';
+    margin: 1em;
+}
+#container {
+    width: 80%;
+    padding: 1em;
+    text-align: left;
+    border: 2px solid #000;
+}
+#container h1 {
+    font-size: 35px;
+    text-align: center;
+
 }
