@@ -1,9 +1,8 @@
 body {
-=======
     background-color: rgb(185, 185, 185);
     color: rgb(0, 0, 0);
-    text-align: Helvetica;
-    font-family: Arial;
+    text-align: center;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -20,7 +19,6 @@ body {
     font-weight: normal;
     font-size: 0.8em;
     margin: 0 0 0 0.50em;
->>>>>>> cabecera
 }
 #container {
     width: 50%;
