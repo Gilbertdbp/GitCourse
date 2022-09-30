@@ -1,12 +1,13 @@
 body {
-    background-image: url("../logo/fondo.png");
-    background-repeat: no-repeat;
+    background-image: url("../logo/planeta.png");
     background-size: cover;
-    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: sans-serif;
     margin: 0;
-    padding: 0;
+    padding-top: 1.5em;
 }
 #cabecera {
     background: rgb(0, 0, 0);
@@ -14,34 +15,42 @@ body {
     color: rgb(255, 255, 255);
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0;
     padding: 0.2em;
 }
 #cabecera #logo {
-    width: 120px;
+    width: 150px;
     vertical-align: middle;
 }
 #cabecera #tagline {
     font-weight: normal;
     font-size: 0.5em;
     margin: 0 0 0 0.50em;
+
 }
 #container {
-    width: 45%;
+    width: 50%;
     padding: 0;
     text-align: left;
-    border: 1px solid rgb(147, 147, 147);
+    border: 0.1px solid rgb(59, 59, 59);
     margin: 0 auto;
 }
 #container h1 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
 }
 #post {
-    background-image: url("../logo/post.png");
-    background-repeat: no-repeat;
+    background-image: url("../logo/espacio.png");
     background-size: cover;
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding: 1em;
+}
+#footer {
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#post #img {
+    opacity: 0.3;
 }
