@@ -48,9 +48,6 @@ body {
 }
 #footer {
     background-color: black;
+    color: white;
     text-align: center;
-    font-weight: bold;
-}
-#post #img {
-    opacity: 0.3;
 }
